@@ -1,7 +1,5 @@
 package com.example.jiangph.classforloadimage;
-
 import android.graphics.drawable.Drawable;
-
 import java.lang.ref.SoftReference;
 import java.net.URL;
 import java.util.HashMap;
@@ -77,14 +75,6 @@ public class AsyncImageLoader {
             throw new RuntimeException(e);
         }
     }
-
-
-
-
-
-
-
-
 
     //对外界开放的回接口
     public interface ImageCallback
